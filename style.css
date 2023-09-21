@@ -1,0 +1,100 @@
+/* Style untuk kontainer form login */
+.login-container {
+  width: 300px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:rgb(243, 49, 5);
+  padding: 50px;
+  border: 1px solid rgb(5, 112, 141);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(62, 201, 3, 0.2);
+  background-color: #022e3ae6; /* Mengatur efek transparansi */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/wpa.png');
+  background-size: cover; /* untuk mengisi seluruh area latar belakang */
+  background-repeat: no-repeat; /* agar gambar tidak diulang */
+  font-family: sans-serif;
+}
+
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+
+}
+h1, label {
+  color: #0ad2f5; /* Ganti dengan warna yang Anda inginkan */
+}
+
+input[type="text"],
+input[type="password"] {
+  color: #333; /* Ganti dengan warna yang Anda inginkan */
+  /* ... kode CSS lainnya ... */
+}
+
+
+/* Style untuk label input */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style untuk kotak input */
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid brown;
+  border-radius: 3px;
+}
+
+/* Style untuk tombol login */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style untuk tombol login saat dihover */
+.login-button:hover {
+  background-color: #8a06ef;
+}
+
+/* Style untuk pesan error */
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Style untuk lupa password atau daftar akun baru (opsional) */
+.forgot-password,
+.signup-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Style untuk link lupa password atau daftar akun baru (opsional) */
+.signup-link a,
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style untuk link lupa password atau daftar akun baru saat dihover (opsional) */
+.signup-link a:hover,
+.forgot-password a:hover {
+  text-decoration: underline;
+}
